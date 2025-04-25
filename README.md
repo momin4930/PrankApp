@@ -10,6 +10,12 @@ A fun mobile application where users can log in, and explore the playful world o
 - 📱 Clean and modern UI with React Native and Expo
 - 🧭 Navigation using Expo Router
 - 🎨 Styled with StyleSheet and responsive design
-- 📦 Scalable structure for adding more screens (e.g., prank gallery, upload)
 
 ---
+
+## Dependencies
+
+```bash
+npx expo install @react-navigation/native @react-navigation/stack react-native-screens react-native-safe-area-context
+npx expo install @expo/vector-icons
+npx expo install appwrite
