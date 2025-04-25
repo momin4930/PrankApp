@@ -181,9 +181,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '100%',
-    paddingVertical: 15,
-    borderTopColor: '#ddd',
-    borderTopWidth: 1,
+    paddingVertical: 135,
+    // borderTopColor: '#ddd',
+    // borderTopWidth: 1,
     marginTop: 30,
   },
   navIcon: {
