@@ -42,7 +42,7 @@ const Homescreen = () => {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>🎉 PRANKSTER</Text>
+      <Text style={styles.title}>🎭 PRANKSTER</Text>
       <Text style={styles.subtitle}>Let's Have Some Fun!</Text>
 
       <View style={styles.optionsContainer}>
@@ -80,7 +80,6 @@ const Homescreen = () => {
 
       <View style={styles.navBar}>
         <TouchableOpacity><Text style={styles.navIcon}><Ionicons name="layers-outline" size={25}/></Text><Text style={styles.navLabel}>Pranks</Text></TouchableOpacity>
-        {/* <TouchableOpacity><Text style={styles.navIcon}><Ionicons name="refresh-circle-outline" size={25}/></Text><Text style={styles.navLabel}>History</Text></TouchableOpacity> */}
         <TouchableOpacity onPress={handleLogout} ><Text style={styles.navIcon} ><Ionicons name="log-out-outline" size={25} /></Text><Text style={styles.navLabel}>Logout</Text></TouchableOpacity>
       </View>
     </ScrollView>
